@@ -1,4 +1,4 @@
-## Trybe
+# Trybe
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Mario Burali](https://www.linkedin.com/in/marioaugustoburali/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) 🚀🚀🚀
 
@@ -9,7 +9,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 Nesse módulo, aprendi a utilizar Unix, Shell, Git e o próprio GitHub.
 Foi um período de aprendizado sobre os comandos no terminal.
 
-# Dia 01: Unix, Kernel e Shell
+## Dia 01: Unix, Kernel e Shell
 - Conceitos;
 - Principais comandos e operadores do Unix;
 - Como trabalhar no terminal;
@@ -17,7 +17,7 @@ Foi um período de aprendizado sobre os comandos no terminal.
 - Como exibir conteúdos de arquivos no terminal.
 
 
-# Dia 02: Git
+## Dia 02: Git
 - Conceitos de Git e de GitHub;
 - Como gerenciar versões de um projeto;
 - Como criar repositório de projetos;
@@ -25,7 +25,7 @@ Foi um período de aprendizado sobre os comandos no terminal.
 - Salvar projetos no repositório Git local;
 - Controlar as alterações e versões de arquivos.
 
-# Dia 03: Git & GitHub
+## Dia 03: Git & GitHub
 
 - Clonar um repositório já existente no GitHub;
 - Abrir pull requests;
