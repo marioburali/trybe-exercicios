@@ -1,0 +1,20 @@
+* {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: justify;
+     
+}
+body {
+    font-size: 16px;
+}
+h1{
+    font-size: 65px;
+    color: orange;
+}
+.fundo-diferente {
+    background-color: orange;
+    color: white;
+}
+p{
+    font-weight: 600;
+    font-size: 3em;
+}
