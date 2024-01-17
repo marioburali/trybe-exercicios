@@ -16,6 +16,7 @@ h1{
     color: white;
     padding: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.47);
+    text-align: center;
 }
 img{
     width: 150px;
