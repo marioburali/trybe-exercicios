@@ -15,7 +15,6 @@ const addClass = (event) => {
     const techElement = document.querySelector('.tech');
     techElement.classList.remove('tech');
     event.target.classList.add('tech');
-    input.value = '';
 }
 firstLi.addEventListener('click', addClass)
 secondLi.addEventListener('click', addClass)
@@ -24,6 +23,11 @@ thirdLi.addEventListener('click', addClass)
 
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech'.
+
+input.addEventListener('input', (event)) => {
+    const techInput = document.querySelector('.tech');
+    techInput.innerText = event.target.value;
+}
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy',
 // redirecione para alguma página.
