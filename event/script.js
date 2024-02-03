@@ -35,7 +35,7 @@ input.addEventListener('input', digitText);
 // redirecione para alguma página.
 // 4.1. Que tal redirecionar para seu portfólio? Dica: Lembre-se dos métodos `window.location.replace` e `window.open`.
 
-const redirectPg = () => {
+const redirectPg = (event) => {
     window.location.replace('https://github.com/marioburali');
 };
 
@@ -47,15 +47,12 @@ console.log(myWebpage)
 
 // Segue abaixo um exemplo de uso do event.target.
 
-const resetText = (event) => {
-  // O event é passado como um parâmetro para a função.
-  event.target.innerText = 'Opção reiniciada';
-  // O event possui várias propriedades, porém a mais usada é o event.target,
-  // que retorna o objeto que disparou o evento.
+const changeColor = (event) => {
+  event.target.style.color = 'green';
 }
+myWebpage.addEventListener('mouseover', changeColor);
 
-firstLi.addEventListener('dblclick', resetText);
-
-// Não precisa passar o parâmetro dentro da callback resetText. O próprio
-// navegador fará esse trabalho por você, não é legal? Desse jeito, o
-// event.target na função retornará o objeto 'firstLi'.
+const returnColor = (event) => {
+    event.target.style.color = 'unset';
+  }
+  myWebpage.addEventListener('mouseout', returnColor);
